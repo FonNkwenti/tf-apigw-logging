@@ -57,7 +57,8 @@ Before you begin, ensure you have the following:
    ```bash
    terraform apply
    ```
-7. After the apply is complete, Terraform will output the API Gateway URL which can be used to access the REST API endpoints.
+7. After the apply is complete, Terraform will output the API Gateway Invoke URL which can be used to access the REST API endpoints.
+8. Open the invoke_apigw.sh script and update `API_GATEWAY_ENDPOINT="<<YOUR API INVOKE URL>>`. Run the script to generate API Gateway Access Logs in CloudWatch.
 
 ---
 

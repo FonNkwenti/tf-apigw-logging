@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the API Gateway endpoint URL
-API_GATEWAY_ENDPOINT="https://em49q45mzd.execute-api.eu-central-1.amazonaws.com/dev/claim"
+API_GATEWAY_ENDPOINT="<<YOUR API INVOKE URL>>"
 
 # Set the number of invocations
 NUM_INVOCATIONS=50
